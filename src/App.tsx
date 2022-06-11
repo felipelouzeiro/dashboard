@@ -1,7 +1,9 @@
+import { Dashboard } from './app/pages'
+
 export const App = () => {
   return (
     <>
-      <div>Dashboard</div>
+      <Dashboard />
     </>
   )
 }
