@@ -1,7 +1,10 @@
+import { GlobalStyle } from '../../shared/theme/GlobalStyle.style'
+
 export const Dashboard = () => {
   return (
     <>
-      <div>Dashboard</div>
+      <GlobalStyle />
+      header gráficos
     </>
   )
 }
