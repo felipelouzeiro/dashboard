@@ -49,6 +49,7 @@ export const ButtonFilter = styled('button')`
   border-radius: 10px;
   border-style: none;
   color: #f6f6f6;
+  font-size: 14px;
   font-weight: 600;
   line-height: 17px;
   cursor: pointer;
