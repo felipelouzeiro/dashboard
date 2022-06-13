@@ -64,7 +64,13 @@ A aplicação é uma landing page que possui em sua tela principal um título e 
    git checkout dashboard-dev
    ```
 
-2. Execute os scripts de test:
+2. Instale as dependências de teste:
+
+   ```sh
+   npm install
+   ```
+
+3. Execute os scripts de test:
 
    ```sh
    npm test
