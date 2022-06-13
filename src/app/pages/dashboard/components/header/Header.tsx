@@ -11,8 +11,10 @@ export const Header = () => {
     <>
       <Zone />
       <HeaderContainer>
-        <Title>Dashboard</Title>
-        <Subtitle>Desafio Técnico Frontend</Subtitle>
+        <div>
+          <Title>Dashboard</Title>
+          <Subtitle>Desafio Técnico Frontend</Subtitle>
+        </div>
         <ButtonFilter>
           <svg
             width="24"

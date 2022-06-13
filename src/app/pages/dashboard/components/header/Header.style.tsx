@@ -8,10 +8,13 @@ export const Zone = styled('header')`
 `
 
 export const HeaderContainer = styled('header')`
-  margin: 0 28px 0 28px;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px auto;
+  margin-bottom: 0;
+  padding: 0 28px;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  /* max-width: 1440px; */
 `
 
 export const Title = styled('h1')`
@@ -19,7 +22,6 @@ export const Title = styled('h1')`
   line-height: 100%;
   color: #5d405c;
   font-weight: 700;
-  width: fit-content;
 `
 
 export const Subtitle = styled('h2')`
@@ -28,15 +30,13 @@ export const Subtitle = styled('h2')`
   line-height: 100%;
   font-weight: 500;
   margin-top: 8px;
-  width: fit-content;
-  letter-spacing: 0.5px;
 `
 
 export const ButtonFilter = styled('button')`
-  position: absolute;
+  /* position: absolute;
   right: 0;
   bottom: 15px;
-  top: 5px;
+  top: 5px; */
 
   display: flex;
   align-items: center;
