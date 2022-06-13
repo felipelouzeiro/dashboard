@@ -1,4 +1,5 @@
 import { GlobalStyle } from '../../shared/theme/GlobalStyle.style'
+import { Graphics } from './components/graphics/Graphics'
 import { Header } from './components/header/Header'
 
 export const Dashboard = () => {
@@ -6,6 +7,7 @@ export const Dashboard = () => {
     <>
       <GlobalStyle />
       <Header />
+      <Graphics />
     </>
   )
 }
