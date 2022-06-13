@@ -1,5 +1,14 @@
 {
   "name": "dashboard",
+  "author": "Felipe Alves Louzeiro",
+  "description": "Dashboard com gráficos construída utilizando React e Typescript",
+  "keywords": [
+    "styled-components",
+    "react.js",
+    "typescript",
+    "apexcharts"
+  ],
+  "repository": "https://github.com/felipelouzeiro/dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
