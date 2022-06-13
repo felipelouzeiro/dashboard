@@ -18,5 +18,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: #f6f6f6;
     font-family: 'Montserrat', 'sans-serif';
+    height: 1024px;
   }
 `
