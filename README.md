@@ -54,6 +54,24 @@ A aplicação é uma landing page que possui em sua tela principal um título e 
 
 ---
 
+<p>A aplicação possui testes automatizados construídos com <a href="https://jestjs.io/pt-BR/">Jest</a> e <a href="https://testing-library.com/docs/react-testing-library/intro/">React Testing Library</a>.</p>
+
+<h3>Instruções para executar os testes:</h3>
+
+1. Alterne para a branch de desenvolvimento:
+
+   ```sh
+   git checkout dashboard-dev
+   ```
+
+2. Execute os scripts de test:
+
+   ```sh
+   npm test
+
+   npm test --coverage
+   ```
+
 A aplicação está hospedada na plataforma Heroku.
 
 > > [Clique aqui para visualizar a aplicação.](https://dashboard-graphics.herokuapp.com/)
