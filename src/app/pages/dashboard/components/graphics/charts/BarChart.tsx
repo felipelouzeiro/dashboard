@@ -21,6 +21,9 @@ export const BarChart = () => {
         color: '#5d405c',
       },
     },
+    dataLabels: {
+      enabled: false,
+    },
     plotOptions: {
       bar: {
         borderRadius: 4,
