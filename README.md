@@ -27,9 +27,9 @@ A aplicação é uma landing page que possui em sua tela principal um título e 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
 </div>
 
----
+- <p>Os gráficos interativos foram produzidos com a biblioteca <a href="https://apexcharts.com/">Apexcharts</a>, e na estilização foi utilizada a biblioteca <a href="https://styled-components.com/">Styled Components</a>.</p>
 
-<p>Os gráficos interativos foram produzidos com a biblioteca <a href="https://apexcharts.com/">Apexcharts</a>, e na estilização foi utilizada a biblioteca <a href="https://styled-components.com/">Styled Components</a>.</p>
+---
 
 <h3>Instruções para executar na sua máquina:</h3>
 
@@ -77,6 +77,42 @@ A aplicação é uma landing page que possui em sua tela principal um título e 
 
    npm test --coverage
    ```
+
+---
+
+<h3>Fique à vontade para contribuir com melhorias!</h3>
+
+Próximos passos:
+
+- Mais gráficos!
+- Filtros!
+- Api?
+
+Aqui estão algumas instruções para sua contribuição:
+
+1.  Faça o Fork da aplicação.
+
+2.  Crie a sua ramificação.
+
+```sh
+ git checkout -b feature
+```
+
+3.  Envie suas alterações.
+
+```sh
+git commit -m 'Segue algumas melhorias!'
+```
+
+4.  Envie para o repositório remoto.
+
+```sh
+git push origin feature
+```
+
+5.  Por fim, abra um Pull Request, você pode descrever suas alterações nele.
+
+---
 
 A aplicação está hospedada na plataforma Heroku.
 
